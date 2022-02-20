@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend Mega', sans-serif;
+  background-color:  #ffffff;
+}
+
+.container {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.container .content {
+ 
+  padding: 50px 30px 30px 40px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+}
+.container .content h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color:  #000000;
+}
+.container .content p {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 680px;
+  }
+  .container .content {
+    padding-left: 20px;
+  }
+  .container .content h1 {
+    font-size: 30px;
+  }
+  .container .content p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 470px;
+  }
+  .container .content {
+    padding-left: 15px;
+  }
+  .container .content h1 {
+    font-size: 30px;
+  }
+  .container .content p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    width: 320px;
+  }
+  .container .content {
+    padding-left: 10px;
+  }
+  .container .content h1 {
+    font-size: 23px;
+  }
+  .container .content p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    width: 280px;
+  }
+  .container .content {
+    padding-left: 5px;
+  }
+  .container .content h1 {
+    font-size: 18px;
+  }
+  .container .content p {
+    font-size: 13px;
+  }
+}
